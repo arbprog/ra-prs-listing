@@ -1,8 +1,8 @@
 {
-  "name": "ra-rps-listing",
+  "name": "ra-prs-listing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arbprog.github.io/ra-rps-listing",
+  "homepage": "https://arbprog.github.io/ra-prs-listing",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
