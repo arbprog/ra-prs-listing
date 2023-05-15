@@ -23,10 +23,10 @@ function Item(props) {
           <img src={MainImage && MainImage.url_570xN} alt=''/>
         </a>
       </div>
-      <div class="item-details">
-        <p class="item-title">{title && getTitle(title)}</p>
-        <p class="item-price">{price && getPrice(price, currency_code)}</p>
-        <p class={`item-quantity level-${quantity && getLevel(quantity)}`}>{`${quantity} left`}</p>
+      <div className="item-details">
+        <p className="item-title">{title && getTitle(title)}</p>
+        <p className="item-price">{price && getPrice(price, currency_code)}</p>
+        <p className={`item-quantity level-${quantity && getLevel(quantity)}`}>{`${quantity} left`}</p>
       </div>
     </div>
   );

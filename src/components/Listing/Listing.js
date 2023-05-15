@@ -6,7 +6,7 @@ import Item from '../Item/Item';
 function Listing(props) {
   const { items } = props;
   return (
-    <div class='item-list'>
+    <div className='item-list'>
       {
         items.map((o) => <Item data={o} key={shortid.generate()}/>)
       }
